@@ -25,3 +25,6 @@ public class TablaMultiplicar {
                 primos.add(i);
             }
         }
+        return primos.stream().mapToInt(i -> i).toArray();
+        }
+}
