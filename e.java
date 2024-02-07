@@ -19,3 +19,4 @@ public class FactoresPrimos {
             factoresPrimos.add(2);
             numero /= 2;
         }
+
