@@ -28,3 +28,10 @@ public class FactoresPrimos {
                 }
             }
         }
+        if (numero > 2) {
+            factoresPrimos.add(numero);
+        }
+
+        return factoresPrimos.stream().mapToInt(i -> i).toArray();
+    }
+}
