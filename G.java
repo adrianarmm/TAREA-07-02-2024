@@ -32,3 +32,8 @@ public static int calcularProductoEscalar(int[] vector1, int[] vector2) {
     for (int i = 0; i < vector1.length; i++) {
         productoEscalar += vector1[i] * vector2[i];
     }
+
+
+    return productoEscalar;
+}
+}
