@@ -1,17 +1,18 @@
-import java.util.Arrays;
+import java.util.ArrayList;
 
-public class TablaMultiplicar {
+public class Primos {
     public static void main(String[] args) {
-        int[][] tablas = generarPrimos(10);
+        int[] primos = generarPrimos(10);
 
         System.out.println("Los 10 primeros números primos son: ");
         for (int i = 0; i < primos.length; i++) {
             System.out.print(primos[i] + " ");
-         }
+        }
     }
+
     public static int[] generarPrimos(int n) {
-       ArrayList<Integer> primos = new ArrayList<>();
-       int contador;
+        ArrayList<Integer> primos = new ArrayList<>();
+        int contador;
 
         for (int i = 2; primos.size() < n; i++) {
             contador = 0;
@@ -25,6 +26,7 @@ public class TablaMultiplicar {
                 primos.add(i);
             }
         }
+
         return primos.stream().mapToInt(i -> i).toArray();
-        }
+    }
 }
