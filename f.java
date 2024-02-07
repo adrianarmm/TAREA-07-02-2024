@@ -57,3 +57,11 @@ public class f {
 
     public static int calcularMaximo(int[] numeros, int cantidad) {
         int maximo = Integer.MIN_VALUE;
+
+
+        for (int i = 0; i < cantidad; i++) {
+            if (numeros[i] > maximo) {
+                maximo = numeros[i];
+            }
+        }
+
