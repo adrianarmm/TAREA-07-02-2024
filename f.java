@@ -51,3 +51,9 @@ public class f {
                 minimo = numeros[i];
             }
         }
+
+        return minimo;
+    }
+
+    public static int calcularMaximo(int[] numeros, int cantidad) {
+        int maximo = Integer.MIN_VALUE;
