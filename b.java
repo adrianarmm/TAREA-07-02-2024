@@ -10,4 +10,8 @@ public class b {
             System.out.println("Multiplo de 5: " + multiplosDeCinco[i]);
         }
     }
+
+    public static int[] getMultiplosDeCinco(int min, int max) {
+
+    }
 }
