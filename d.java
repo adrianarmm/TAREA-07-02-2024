@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class d{
+public class d {
     public static void main(String[] args) {
         int[] primos = generarPrimos(10);
 
