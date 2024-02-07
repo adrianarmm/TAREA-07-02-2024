@@ -27,3 +27,8 @@ public class Mediana {
             i++;
         }
 
+        return i;
+    }
+
+    public static double calcularMedia(int[] numeros, int cantidad) {
+        int suma = 0;
