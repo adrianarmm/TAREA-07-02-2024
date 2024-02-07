@@ -5,5 +5,7 @@ public class b {
 
         System.out.println("La suma de los multiplos de 5 entre 5 y 100 es: " + suma);
         System.out.println("El promedio de los multiplos de 5 entre 5 y 100 es: " + suma / multiplosDeCinco.length);
+
+        for (int i = 0; i < multiplosDeCinco.length; i++) {
     }
 }
