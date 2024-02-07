@@ -18,3 +18,10 @@ public class f
 
         System.out.println("El producto escalar de los dos vectores es: " + productoEscalar);
     }
+public static void leerVector(int[] vector) {
+    Scanner scanner = new Scanner(System.in);
+
+    for (int i = 0; i < vector.length; i++) {
+        vector[i] = scanner.nextInt();
+    }
+}
