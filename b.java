@@ -13,6 +13,8 @@ public class b {
 
     public static int[] getMultiplosDeCinco(int begin, int end) {
         int contador = 0;
+        int[] multiplos = new int[(end - begin) / 5 + 1];
+
 
     }
 }
