@@ -19,3 +19,11 @@ public class Mediana {
     public static int recibirNumeros(int[] numeros) {
         Scanner scanner = new Scanner(System.in);
         int i = 0;
+
+        System.out.println("Introduce números enteros. Para terminar, introduce un 0.");
+
+        while (i < numeros.length && scanner.nextInt() != 0) {
+            numeros[i] = scanner.nextInt();
+            i++;
+        }
+
