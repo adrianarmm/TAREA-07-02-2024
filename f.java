@@ -5,7 +5,6 @@ public class f {
         int[] numeros = new int[100];
         int cantidad = recibirNumeros(numeros);
 
-
         double media = calcularMedia(numeros, cantidad);
         int minimo = calcularMinimo(numeros, cantidad);
         int maximo = calcularMaximo(numeros, cantidad);
@@ -14,7 +13,6 @@ public class f {
         System.out.println("El mínimo es: " + minimo);
         System.out.println("El máximo es: " + maximo);
     }
-
 
     public static int recibirNumeros(int[] numeros) {
         Scanner scanner = new Scanner(System.in);
@@ -33,15 +31,12 @@ public class f {
     public static double calcularMedia(int[] numeros, int cantidad) {
         int suma = 0;
 
-
         for (int i = 0; i < cantidad; i++) {
             suma += numeros[i];
         }
 
         return (double) suma / cantidad;
     }
-
-
 
     public static int calcularMinimo(int[] numeros, int cantidad) {
         int minimo = Integer.MAX_VALUE;
@@ -57,7 +52,6 @@ public class f {
 
     public static int calcularMaximo(int[] numeros, int cantidad) {
         int maximo = Integer.MIN_VALUE;
-
 
         for (int i = 0; i < cantidad; i++) {
             if (numeros[i] > maximo) {
