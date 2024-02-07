@@ -12,3 +12,9 @@ public class f
 
         System.out.println("Introduce los elementos del segundo vector:");
         leerVector(vector2);
+
+
+        int productoEscalar = calcularProductoEscalar(vector1, vector2);
+
+        System.out.println("El producto escalar de los dos vectores es: " + productoEscalar);
+    }
