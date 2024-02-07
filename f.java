@@ -14,3 +14,8 @@ public class Mediana {
         System.out.println("El mínimo es: " + minimo);
         System.out.println("El máximo es: " + maximo);
     }
+
+
+    public static int recibirNumeros(int[] numeros) {
+        Scanner scanner = new Scanner(System.in);
+        int i = 0;
