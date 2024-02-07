@@ -12,3 +12,11 @@ public class TablaMultiplicar {
     public static int[] generarPrimos(int n) {
        ArrayList<Integer> primos = new ArrayList<>();
        int contador;
+
+        for (int i = 2; primos.size() < n; i++) {
+            contador = 0;
+            for (int j = 2; j <= i / 2; j++) {
+                if (i % j == 0) {
+                    contador++;
+                    break;
+                }
