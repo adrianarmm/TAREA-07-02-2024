@@ -20,3 +20,5 @@ public class FactoresPrimos {
             numero /= 2;
         }
 
+        for (; divisor <= Math.sqrt(numero); divisor++) {
+            if (numero % divisor == 0) {
