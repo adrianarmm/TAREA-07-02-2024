@@ -4,3 +4,5 @@ public class a {
 char maxChar = Character.MAX_VALUE;
 
 short maxShort = Short.MAX_VALUE;
+
+int maxInt = Integer.MAX_VALUE;
