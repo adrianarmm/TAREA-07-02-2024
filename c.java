@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class TablaMultiplicar {
+public class c {
     public static void main(String[] args) {
         int[][] tablas = generarTablas(10);
 
