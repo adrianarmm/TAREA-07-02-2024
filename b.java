@@ -11,7 +11,7 @@ public class b {
         }
     }
 
-    public static int[] getMultiplosDeCinco(int min, int max) {
+    public static int[] getMultiplosDeCinco(int begin, int end) {
 
     }
 }
