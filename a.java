@@ -5,5 +5,6 @@ public class a {
         int intNumber = Integer.MAX_VALUE;
 
         System.out.println(" Mayor número entero representable por un char es: " + charNumber);
+        System.out.println(" Mayor número entero representable por un short es: " + shortNumber);
     }
 }
