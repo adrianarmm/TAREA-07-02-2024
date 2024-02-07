@@ -10,5 +10,4 @@ public class TablaMultiplicar {
                      }
                System.out.println();
           }
-   }
-
+}
