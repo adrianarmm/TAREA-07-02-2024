@@ -12,6 +12,7 @@ public class b {
     }
 
     public static int[] getMultiplosDeCinco(int begin, int end) {
+        int contador = 0;
 
     }
 }
