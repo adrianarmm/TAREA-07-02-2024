@@ -9,3 +9,6 @@ public class TablaMultiplicar {
             System.out.print(primos[i] + " ");
          }
     }
+    public static int[] generarPrimos(int n) {
+       ArrayList<Integer> primos = new ArrayList<>();
+       int contador;
