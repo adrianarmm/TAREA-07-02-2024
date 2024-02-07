@@ -12,3 +12,5 @@ public class H {
 
         imprimirMatriz(matriz);
     }
+    public static void rellenarMatrizSimetrica(int[][] matriz) {
+        Random random = new Random();
