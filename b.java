@@ -15,6 +15,6 @@ public class b {
         int contador = 0;
         int[] multiplos = new int[(end - begin) / 5 + 1];
 
-
+        for (int i = begin; i <= end; i++) {
     }
 }
