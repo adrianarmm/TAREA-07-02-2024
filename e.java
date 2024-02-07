@@ -25,5 +25,6 @@ public class FactoresPrimos {
                 while (numero % divisor == 0) {
                     factoresPrimos.add(divisor);
                     numero /= divisor;
-
                 }
+            }
+        }
