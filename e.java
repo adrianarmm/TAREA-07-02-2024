@@ -10,3 +10,7 @@ public class FactoresPrimos {
             System.out.print(factoresPrimos[i] + " ");
         }
     }
+
+    public static int[] descomponerEnFactoresPrimos(int numero) {
+        ArrayList<Integer> factoresPrimos = new ArrayList<>();
+        int divisor = 2;
