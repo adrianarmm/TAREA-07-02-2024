@@ -21,3 +21,6 @@ public class TablaMultiplicar {
                     break;
                 }
             }
+            if (contador == 0) {
+                primos.add(i);
+            }
