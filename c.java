@@ -11,3 +11,15 @@ public class TablaMultiplicar {
                System.out.println();
           }
 }
+    public static int[][] generarTablas(int numero) {
+        int[][] tablas = new int[numero][numero];
+
+        for (int i = 0; i < tablas.length; i++) {
+            for (int j = 0; j < tablas[i].length; j++) {
+                tablas[i][j] = (i + 1) * (j + 1);
+            }
+        }
+
+        return tablas;
+    }
+}
