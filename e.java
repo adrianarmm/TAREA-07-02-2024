@@ -14,3 +14,8 @@ public class FactoresPrimos {
     public static int[] descomponerEnFactoresPrimos(int numero) {
         ArrayList<Integer> factoresPrimos = new ArrayList<>();
         int divisor = 2;
+
+        while (numero % 2 == 0) {
+            factoresPrimos.add(2);
+            numero /= 2;
+        }
