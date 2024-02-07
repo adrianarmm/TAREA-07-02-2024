@@ -40,3 +40,14 @@ public class f {
 
         return (double) suma / cantidad;
     }
+
+
+
+    public static int calcularMinimo(int[] numeros, int cantidad) {
+        int minimo = Integer.MAX_VALUE;
+
+        for (int i = 0; i < cantidad; i++) {
+            if (numeros[i] < minimo) {
+                minimo = numeros[i];
+            }
+        }
