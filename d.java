@@ -20,3 +20,4 @@ public class TablaMultiplicar {
                     contador++;
                     break;
                 }
+            }
